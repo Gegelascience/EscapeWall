@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Escape Wall</string>
+    <string name="score">Best score : %1$s s</string>
+    <string name="btn_reset">Reset your best score</string>
+    <string name="instru">Move the phone to escape from walls. How much time will you survive ?</string>
+    <string name="btn_start">Start</string>
+    <string name="choice_mode">Select the mode and have fun.</string>
+    <string name="easy_mode">Easy</string>
+    <string name="classic_mode">Classic</string>
+    <string name="difficult_mode">Difficult</string>
+    <string name="fin" translatable="false">GAME OVER</string>
+    <string name="result">score : %1$s s</string>
+    <string name="best">best : %1$s s</string>
+    <string name="theme">Theme : %1$s</string>
+    <string name="btn_cl_th">Classic</string>
+    <string name="btn_bu_th">Butterfly</string>
+    <string name="tmp_game">Time : %1$s s</string>
+    <string name="butterfly">butterfly</string>
+    <string name="about">About</string>
+    <string name="info">If you encounter any bug
+or have any suggestions or comments,
+don\'t hesitate to contact us by email.
+
+Email : remi.verchere2@gmail.com</string>
+    <string name="state1">Awesome, you cross the minute. You are the king.</string>
+    <string name="state2">Good, the wall of the minute is just in front of you.</string>
+    <string name="state3">Welcome in the world of speed.</string>
+    <string name="state4">I think you can do better.</string>
+    <string name="state5">Are you clumsy and lucky ?</string>
+    <string name="state6">Are you clumsy ?</string>
+    <string name="score_easy">Score easy</string>
+    <string name="score_difficult">Score difficult</string>
+    <string name="score_classic">Score classic</string>
+    <string name="logo" translatable="false">logo</string>
+    <string name="loose">game over icon</string>
+</resources>

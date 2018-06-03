@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mode_score"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:textAlignment="center"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="40sp"/>
+    <ImageView
+        android:id="@+id/smile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4" />
+    <TextView
+        android:id="@+id/affichage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text=""
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/comments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text=""
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="@string/btn_reset"
+        android:backgroundTint="@color/colorPrimD"/>
+</LinearLayout>

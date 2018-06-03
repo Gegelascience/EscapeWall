@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Escape Wall</string>
+    <string name="score">Meilleur score : %1$s s</string>
+    <string name="btn_reset">Réinitialise ton meilleur score</string>
+    <string name="instru">Pivotes ton téléphone pour éviter les murs. Combien de temps tiendras-tu ?</string>
+    <string name="btn_start">Commencer</string>
+    <string name="choice_mode">Choisis le mode et amuse-toi.</string>
+    <string name="easy_mode">Facile</string>
+    <string name="classic_mode">Classique</string>
+    <string name="difficult_mode">Difficile</string>
+    <string name="result">score : %1$s s</string>
+    <string name="best">meilleur : %1$s s</string>
+    <string name="theme">Thème : %1$s</string>
+    <string name="btn_cl_th">Classique</string>
+    <string name="btn_bu_th">Papillon</string>
+    <string name="tmp_game">Temps : %1$s s</string>
+    <string name="butterfly">papillon</string>
+    <string name="about">A propos</string>
+    <string name="info">Si vous rencontrez des bug\nou avez des suggestions,\nn\'hésitez pas à nous contacter par mail. \n\nEmail : remi.verchere2@gmail.com</string>
+    <string name="score_easy">Score facile</string>
+    <string name="score_difficult">Score difficile</string>
+    <string name="score_classic">Score classique</string>
+    <string name="state1">Incroyable, tu as dépassé la minute. Tu est le roi.</string>
+    <string name="state2">Bien, la barière de la minute est devant toi.</string>
+    <string name="state3">Bienvenue dans le monde de la vitesse.</string>
+    <string name="state4">Je pense que tu peux mieux faire.</string>
+    <string name="state6">Es-tu maladroit ?</string>
+    <string name="state5">Es-tu maladroit et chanceux ?</string>
+    <string name="loose">icône game over</string>
+</resources>

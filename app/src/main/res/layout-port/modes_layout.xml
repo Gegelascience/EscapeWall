@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="@string/choice_mode"/>
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="0.4"
+    android:layout_gravity="center_horizontal"
+    android:rowCount="5"
+    android:columnCount="1">
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:backgroundTint="@color/colorPrimD"
+        android:text="@string/easy_mode"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        />
+
+    <Button
+        android:id="@+id/difficult"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:backgroundTint="@color/colorPrimD"
+        android:text="@string/difficult_mode"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        />
+
+    <Button
+        android:id="@+id/infinity"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:backgroundTint="@color/colorPrimD"
+        android:text="@string/classic_mode"/>
+
+
+</GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+
+</LinearLayout>

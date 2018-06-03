@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_home_white_24dp"/>
+
+    <item
+        android:id="@+id/return_img"
+        android:title="Return"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_undo_white_24dp"/>
+
+</menu>
