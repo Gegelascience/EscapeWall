@@ -123,7 +123,7 @@ public class Score extends AppCompatActivity {
     }
 
     public void retour(){
-        Intent returnhome=new Intent(Score.this,Accueil.class);
+        Intent returnhome=new Intent(Score.this,Mode.class);
         startActivity(returnhome);
         finish();
     }

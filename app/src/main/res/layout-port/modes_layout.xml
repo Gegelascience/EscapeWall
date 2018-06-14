@@ -7,8 +7,18 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.3"
+        android:layout_weight="0.2"
+        android:textAlignment="center"
+        android:gravity="bottom"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:text="@string/instru"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
         android:textColor="#ffffff"
+        android:textAlignment="center"
         android:gravity="center"
         android:text="@string/choice_mode"/>
 <GridLayout

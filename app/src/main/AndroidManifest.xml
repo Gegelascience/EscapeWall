@@ -13,22 +13,17 @@
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".Accueil"
-            android:screenOrientation="portrait"
-            android:hardwareAccelerated="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
         <activity android:name=".Score"
         android:screenOrientation="portrait">
         </activity>
 
         <activity android:name=".Mode"
             android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
 

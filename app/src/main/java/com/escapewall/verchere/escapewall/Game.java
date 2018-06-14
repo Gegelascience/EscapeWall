@@ -187,7 +187,7 @@ public class Game extends AppCompatActivity implements SensorEventListener {
         int id = item.getItemId();
         switch (id){
             case R.id.home:
-                home();
+                retour();
             return true;
             case R.id.return_img:
                 retour();
@@ -215,11 +215,6 @@ public class Game extends AppCompatActivity implements SensorEventListener {
         finish();
     }
 
-    public void home(){
-        Intent returnhome=new Intent(Game.this,Accueil.class);
-        startActivity(returnhome);
-        finish();
-    }
 
     @Override
     protected void onPause(){
